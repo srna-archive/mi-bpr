@@ -1,0 +1,170 @@
+Ziskame vsetky tabulky
+information_schema.CHARACTER_SETS
+information_schema.COLLATIONS
+information_schema.COLLATION_CHARACTER_SET_APPLICABILITY
+information_schema.COLUMNS
+information_schema.COLUMN_PRIVILEGES
+information_schema.ENGINES
+information_schema.EVENTS
+information_schema.FILES
+information_schema.GLOBAL_STATUS
+information_schema.GLOBAL_VARIABLES
+information_schema.KEY_COLUMN_USAGE
+information_schema.PARAMETERS
+information_schema.PARTITIONS
+information_schema.PLUGINS
+information_schema.PROCESSLIST
+information_schema.PROFILING
+information_schema.REFERENTIAL_CONSTRAINTS
+information_schema.ROUTINES
+information_schema.SCHEMATA
+information_schema.SCHEMA_PRIVILEGES
+information_schema.SESSION_STATUS
+information_schema.SESSION_VARIABLES
+information_schema.STATISTICS
+information_schema.TABLES
+information_schema.TABLESPACES
+information_schema.TABLE_CONSTRAINTS
+information_schema.TABLE_PRIVILEGES
+information_schema.TRIGGERS
+information_schema.USER_PRIVILEGES
+information_schema.VIEWS
+information_schema.INNODB_BUFFER_PAGE
+information_schema.INNODB_TRX
+information_schema.INNODB_BUFFER_POOL_STATS
+information_schema.INNODB_LOCK_WAITS
+information_schema.INNODB_CMPMEM
+information_schema.INNODB_CMP
+information_schema.INNODB_LOCKS
+information_schema.INNODB_CMPMEM_RESET
+information_schema.INNODB_CMP_RESET
+information_schema.INNODB_BUFFER_PAGE_LRU
+bpr.girls
+bpr.news
+bpr.users
+
+Vyfiltrujeme len relevantne
+bpr.girls bpr.news bpr.users 
+
+Zistime stlpce tabuliek
+bpr.girls
+id
+nick
+age
+hair
+name
+adresa
+mesto
+psc
+rodne
+
+bpr.news
+id
+title
+text
+date_inserted
+visible
+
+bpr.users
+id
+username
+password
+
+Zistime data tabuliek
+bpr.girls
+------
+bpr.girls:id
+1
+2
+3
+4
+
+bpr.girls:nick
+Bobina
+Eva
+Jana
+Marika
+
+bpr.girls:age
+18
+18
+18
+60
+
+bpr.girls:hair
+Blonde
+Brunette
+Redhead
+White
+
+bpr.girls:name
+Blahoslava Svobodova
+Jaroslava Novotna
+Monika Lakatosova
+Monika Zackova
+
+bpr.girls:adresa
+Adalberta Kolinskeho 9
+Namesti Elisky Kutnohorske 11
+Dvorakova 276
+Dermatologicka 7
+
+bpr.girls:mesto
+Kolin
+Kutna hora
+Borohradek
+Praha
+
+bpr.girls:psc
+28002
+28401
+51724
+00000
+
+bpr.girls:rodne
+525202/130
+935902/5585
+945132/4321
+945242/8888
+
+bpr.news
+------
+bpr.news:id
+1
+2
+3
+
+bpr.news:title
+MI-BPR Site Launched
+20% Discount to our VIP Members
+Prvni uspech!
+
+bpr.news:text
+The MI-BPR site was relaunhed on Tuesday, November 6, 2012. Enjoy the stunning photos, parties, and girls who are always at your disposition!
+<p>We have a special Christmas offer for our valued customers. Rent a girl in December for the entire night and get another one for FREE!</p><p>See more details about this exclusive deal at <a href="download.php?file=xmasdeal.pdf">here</a>.</p>
+<p>Objevili jste chybu v newsfeed.php, ktera nekontroluje je-li clanek s cislem 3 opravdu urcen ke zverejneni.</p>
+
+bpr.news:date_inserted
+2012-11-06 13:15:09
+2011-11-09 14:10:51
+2011-11-09 13:48:05
+
+bpr.news:visible
+1
+0
+0
+
+bpr.users
+------
+bpr.users:id
+1
+2
+
+bpr.users:username
+admin
+www
+
+bpr.users:password
+35b459f73f6e86818c989c4744de3848
+913c8c25da9eb8900ee68f01b7bbfaa5
+
